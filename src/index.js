@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Header from './components/header/Header.jsx';
+import NoticiasList from '@components/noticias/NoticiasList.jsx';
 
 ReactDOM.render(
   <Header/>,
@@ -8,7 +12,7 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <h2>app</h2>,
+  <NoticiasList />,
   document.getElementById('app')
 );
 
